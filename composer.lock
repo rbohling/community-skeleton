@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15317fec0eeaeaea8e95f92fb5abc4a1",
+    "content-hash": "1b5804d76441963952311099fadc309c",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1902,33 +1902,33 @@
             "authors": [
                 {
                     "name": "bucabay",
-                    "role": "Developer",
                     "email": "gabe@fijiwebdesign.com",
-                    "homepage": "http://www.fijiwebdesign.com"
+                    "homepage": "http://www.fijiwebdesign.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "eXorus",
-                    "role": "Developer",
                     "email": "exorus.spam@gmail.com",
-                    "homepage": "https://github.com/eXorus/"
+                    "homepage": "https://github.com/eXorus/",
+                    "role": "Developer"
                 },
                 {
                     "name": "M.Valinskis",
-                    "role": "Developer",
                     "email": "M.Valins@gmail.com",
-                    "homepage": "https://code.google.com/p/php-mime-mail-parser"
+                    "homepage": "https://code.google.com/p/php-mime-mail-parser",
+                    "role": "Developer"
                 },
                 {
                     "name": "eugene.emmett.wood",
-                    "role": "Developer",
                     "email": "gene_w@cementhorizon.com",
-                    "homepage": "https://code.google.com/p/php-mime-mail-parser"
+                    "homepage": "https://code.google.com/p/php-mime-mail-parser",
+                    "role": "Developer"
                 },
                 {
                     "name": "alknetso",
-                    "role": "Developer",
                     "email": "alkne@gmail.com",
-                    "homepage": "https://code.google.com/p/php-mime-mail-parser"
+                    "homepage": "https://code.google.com/p/php-mime-mail-parser",
+                    "role": "Developer"
                 }
             ],
             "description": "Fully Tested Mailparse Extension Wrapper for PHP 5.6+",
@@ -5885,30 +5885,25 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v4.3.3",
+            "version": "4.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "9dee83031dcf6dcb53bb7ec1c51de085329bf5cb"
+                "reference": "f04b7d187b120e0a44c18a2d479c2dd0abe99d9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/9dee83031dcf6dcb53bb7ec1c51de085329bf5cb",
-                "reference": "9dee83031dcf6dcb53bb7ec1c51de085329bf5cb",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/f04b7d187b120e0a44c18a2d479c2dd0abe99d9c",
+                "reference": "f04b7d187b120e0a44c18a2d479c2dd0abe99d9c",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": ">=7.1.3"
             },
             "require-dev": {
-                "symfony/var-dumper": "^4.1.1"
+                "symfony/var-dumper": "^4.4.9|^5.0.9"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.3-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\VarExporter\\": ""
@@ -5941,7 +5936,21 @@
                 "instantiate",
                 "serialize"
             ],
-            "time": "2019-06-22T08:39:44+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-28T20:42:29+00:00"
         },
         {
             "name": "symfony/web-link",
@@ -6120,19 +6129,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org"
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "role": "Project Founder",
-                    "email": "armin.ronacher@active-4.com"
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
                 },
                 {
                     "name": "Twig Team",
-                    "role": "Contributors",
-                    "homepage": "https://twig.symfony.com/contributors"
+                    "homepage": "https://twig.symfony.com/contributors",
+                    "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -6148,18 +6157,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/automation-bundle.git",
-                "reference": "57a8b959d7e9d06d71689841c7d4b6ef1ad0432e"
+                "reference": "34e36122bda3fd29355223b6546a6efb97d07a88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/automation-bundle/zipball/57a8b959d7e9d06d71689841c7d4b6ef1ad0432e",
-                "reference": "57a8b959d7e9d06d71689841c7d4b6ef1ad0432e",
+                "url": "https://api.github.com/repos/uvdesk/automation-bundle/zipball/34e36122bda3fd29355223b6546a6efb97d07a88",
+                "reference": "34e36122bda3fd29355223b6546a6efb97d07a88",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": "^7.2",
                 "uvdesk/composer-plugin": "^1.0",
-                "uvdesk/core-framework": "^1.0"
+                "uvdesk/core-framework": "^1.0.4"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -6184,7 +6193,7 @@
                 }
             ],
             "description": "UVDesk Community Helpdesk Automations Bundle",
-            "time": "2019-10-23T10:34:23+00:00"
+            "time": "2020-10-14T09:31:03+00:00"
         },
         {
             "name": "uvdesk/composer-plugin",
@@ -6238,12 +6247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/core-framework.git",
-                "reference": "55254cd14b93e4eb9e618a4d2eba81317b4a2a3d"
+                "reference": "d2672e4552794eafbeeb8f8c0e82561306040c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/core-framework/zipball/55254cd14b93e4eb9e618a4d2eba81317b4a2a3d",
-                "reference": "55254cd14b93e4eb9e618a4d2eba81317b4a2a3d",
+                "url": "https://api.github.com/repos/uvdesk/core-framework/zipball/d2672e4552794eafbeeb8f8c0e82561306040c09",
+                "reference": "d2672e4552794eafbeeb8f8c0e82561306040c09",
                 "shasum": ""
             },
             "require": {
@@ -6251,7 +6260,7 @@
                 "doctrine/doctrine-fixtures-bundle": "^3.2",
                 "doctrine/doctrine-migrations-bundle": "^2.0",
                 "knplabs/knp-paginator-bundle": "^4.0",
-                "php": "^7.1.3",
+                "php": "^7.2",
                 "symfony/framework-bundle": "4.3.*",
                 "uvdesk/composer-plugin": "^1.0"
             },
@@ -6282,7 +6291,7 @@
                 }
             ],
             "description": "UVDesk Community Helpdesk Core Framework Bundle",
-            "time": "2019-10-23T10:33:57+00:00"
+            "time": "2020-10-28T10:36:46+00:00"
         },
         {
             "name": "uvdesk/extension-framework",
@@ -6290,18 +6299,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/extension-framework.git",
-                "reference": "a1f607b575e958c18d3d1573461803da916f01f9"
+                "reference": "1673467e80f1fa0d7e6413b048523a80bfbe45ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/extension-framework/zipball/a1f607b575e958c18d3d1573461803da916f01f9",
-                "reference": "a1f607b575e958c18d3d1573461803da916f01f9",
+                "url": "https://api.github.com/repos/uvdesk/extension-framework/zipball/1673467e80f1fa0d7e6413b048523a80bfbe45ad",
+                "reference": "1673467e80f1fa0d7e6413b048523a80bfbe45ad",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": "^7.2",
                 "uvdesk/composer-plugin": "^1.0",
-                "uvdesk/core-framework": "^1.0"
+                "uvdesk/core-framework": "^1.0.3"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -6326,7 +6335,7 @@
                 }
             ],
             "description": "UVDesk Community Helpdesk Extension Framework Bundle",
-            "time": "2019-10-22T07:43:38+00:00"
+            "time": "2020-09-08T08:12:33+00:00"
         },
         {
             "name": "uvdesk/mailbox-component",
@@ -6334,17 +6343,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/mailbox-component.git",
-                "reference": "04d2a16802c1706346e15c11309ae8a0b87e4243"
+                "reference": "29ea8e6b1c651aa4993d5886c85f3f1267518690"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/mailbox-component/zipball/04d2a16802c1706346e15c11309ae8a0b87e4243",
-                "reference": "04d2a16802c1706346e15c11309ae8a0b87e4243",
+                "url": "https://api.github.com/repos/uvdesk/mailbox-component/zipball/29ea8e6b1c651aa4993d5886c85f3f1267518690",
+                "reference": "29ea8e6b1c651aa4993d5886c85f3f1267518690",
                 "shasum": ""
             },
             "require": {
                 "iamcal/lib_autolink": "^1.7",
-                "php": "^7.1.3",
+                "php": "^7.2",
                 "php-mime-mail-parser/php-mime-mail-parser": "^3.0",
                 "uvdesk/composer-plugin": "^1.0",
                 "uvdesk/core-framework": "^1.0"
@@ -6372,7 +6381,7 @@
                 }
             ],
             "description": "The Mailbox component provides tools that allows your helpdesk to process tickets from multiple email sources.",
-            "time": "2019-10-22T06:47:08+00:00"
+            "time": "2020-10-19T14:11:17+00:00"
         },
         {
             "name": "uvdesk/support-center-bundle",
@@ -6380,18 +6389,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/support-center-bundle.git",
-                "reference": "3f5309ac434441d2bc3111fd3f6e08a5d46e454c"
+                "reference": "e8b3a46b7fc88b1428debebdc9d529057625e4e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/support-center-bundle/zipball/3f5309ac434441d2bc3111fd3f6e08a5d46e454c",
-                "reference": "3f5309ac434441d2bc3111fd3f6e08a5d46e454c",
+                "url": "https://api.github.com/repos/uvdesk/support-center-bundle/zipball/e8b3a46b7fc88b1428debebdc9d529057625e4e4",
+                "reference": "e8b3a46b7fc88b1428debebdc9d529057625e4e4",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": "^7.2",
                 "uvdesk/composer-plugin": "^1.0",
-                "uvdesk/core-framework": "^1.0"
+                "uvdesk/core-framework": "^1.0.4"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -6416,7 +6425,7 @@
                 }
             ],
             "description": "UVDesk Community Helpdesk Customer Support Center Bundle",
-            "time": "2019-10-22T07:18:32+00:00"
+            "time": "2020-10-21T08:29:23+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -6520,6 +6529,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2018-08-13T20:36:59+00:00"
         },
         {
@@ -6574,6 +6584,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],
@@ -6626,6 +6637,7 @@
                 "monolog",
                 "productivity"
             ],
+            "abandoned": true,
             "time": "2018-07-27T15:41:37+00:00"
         },
         {
@@ -7273,5 +7285,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
